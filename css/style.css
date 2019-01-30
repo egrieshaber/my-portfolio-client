@@ -41,6 +41,7 @@ body {
 }
 .site-logo a.brand:hover {
 	text-decoration:none;
+  background-color: #f9ff00;
 }
 
 /* ------- Navigation ------------ */
@@ -140,6 +141,12 @@ body {
 	background-color:#fff;
 }
 
+.works:hover {
+  transition: all 0.5s ease;
+  transform: scaleX(-10);
+  color: black;
+}
+
 /* ===========================
 --- General sections
 ============================ */
@@ -174,12 +181,41 @@ body {
 
 .service-icon {
 	margin-bottom:50px;
-
+  width: 100%;
+  height: auto;
 }
 
 .service-icon:hover {
-	color:#9cabaf;
+  color: #9cabaf;
+}
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 75%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #f9ff00;
+}
+
+.service-icon:hover .overlay {
+  opacity: 0.75;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
 }
 
 
@@ -218,29 +254,33 @@ footer a.scrollup:focus {
 	outline: 0;
 }
 
+.contact-me {
+  color: white;
+}
+
 
 
 
 
 /* --- progress --- */
-.progress {
+/* .progress {
   height: 40px;
 
 }
 .progress-bar {
   font-size: 14px;
   line-height: 40px;
-}
+} */
 
 /* --- Map --- */
-.map{
+/* .map{
 	position:relative;
 	padding-top:100px;
 	margin-top:30px;
-}
+} */
 
 /* google map */
-#google-map{
+/* #google-map{
     position:relative;
     height: 400px;
 }
@@ -315,9 +355,21 @@ textarea#message{
 
 #sendmessage.show, #errormessage.show, .show {
 	display:block;
-}
+} */
 
+/* dev icons */
 .icon {
   font-size: 80px;
   padding: 15px;
+}
+
+.contact-icon {
+  font-size: 30px;
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.contact-icon:hover {
+  color: #f9ff00;
 }
