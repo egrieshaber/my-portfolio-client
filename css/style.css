@@ -79,6 +79,17 @@ body {
   color: #444;
   text-transform: uppercase;
   font-weight: 700;
+<<<<<<< HEAD
+=======
+}
+
+.navbar-fixed-top .nav li a:hover,
+.navbar-fixed-top .nav li a:focus,
+.navbar-fixed-top .nav li.active {
+  outline: 0;
+  background-color: #9cabaf;
+  color: #fff;
+>>>>>>> dev
 }
 
 .navbar-fixed-top.top-nav-collapse ul.nav li a {
@@ -110,6 +121,7 @@ body {
 
 .navbar-fixed-top.top-nav-collapse ul.nav ul.dropdown-menu li a {
   color: #666;
+<<<<<<< HEAD
 }
 
 .navbar-fixed-top .nav li a:hover,
@@ -118,31 +130,33 @@ body {
     outline: 0;
     background-color:#9cabaf ;
 	color:#fff;
+=======
+>>>>>>> dev
 }
 
 .navbar-toggle {
-    padding: 4px 6px;
-    font-size: 18px;
-    color: #000;
+  padding: 4px 6px;
+  font-size: 18px;
+  color: #000;
 }
 
 .navbar-toggle:focus,
 .navbar-toggle:active {
-    outline: 0;
+  outline: 0;
 }
 
 /* --- services --- */
 #services {
-	text-align:center;
-	background-color:#f9f9f9;
+  text-align: center;
+  background-color: #f9f9f9;
 }
 
 /* --- works --- */
 #works {
-	padding-top:60px;
-	text-align:center;
-	padding-bottom:30px;
-	background-color:#fff;
+  padding-top: 60px;
+  text-align: center;
+  padding-bottom: 30px;
+  background-color: #fff;
 }
 
 .works:hover {
@@ -155,36 +169,33 @@ body {
 --- General sections
 ============================ */
 .home-section {
-    padding-top: 40px;
-    padding-bottom: 110px;
-	display:block;
-    position:relative;
-    z-index:120;
+  padding-top: 40px;
+  padding-bottom: 110px;
+  display: block;
+  position: relative;
+  z-index: 120;
 }
-
 
 .section-heading {
-	margin-top:120px;
-	margin-bottom:60px;
+  margin-top: 120px;
+  margin-bottom: 60px;
 }
 
-
-
 .section-heading h2 {
-	font-size: 40px;
-	letter-spacing: -1px;
-	text-transform: uppercase;
-	margin-bottom: 10px;
+  font-size: 40px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .section-heading p {
-	font-weight: 300;
-	font-size: 18px;
-	line-height: 1.6em;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.6em;
 }
 
 .service-icon {
-	margin-bottom:50px;
+  margin-bottom: 50px;
   width: 100%;
   height: auto;
 }
@@ -222,51 +233,48 @@ body {
   text-align: left;
 }
 
-
 /* ===========================
 --- Footer
 ============================ */
 
 footer {
-    background-color: #9cabaf;
+  text-align: center;
+  padding: 50px 0;
+  background-color: #9cabaf;
 }
 
-footer {
-	text-align: center;
-	padding: 50px 0 ;
-
+footer p,
+.credits {
+  color: #fff;
+  font-size: 14px;
 }
 
-footer p, .credits {
-	color: #fff;
-	font-size: 14px;
-}
-footer a, .credits a {
-	color: #fff;
+footer a,
+.credits a {
+  color: #fff;
 }
 
-footer a:hover, .credits a:hover {
-	color: #fff;
-	text-decoration:none;
+footer a:hover,
+.credits a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 footer a.scrollup {
-	color: #fff;
-	margin-bottom: 30px;
+  color: #fff;
+  margin-bottom: 30px;
 }
+
 footer a.scrollup:focus {
-	outline: 0;
+  outline: 0;
 }
 
 .contact-me {
   color: white;
 }
 
-
-
-
-
 /* --- progress --- */
+
 /* .progress {
   height: 40px;
 
@@ -277,6 +285,7 @@ footer a.scrollup:focus {
 } */
 
 /* --- Map --- */
+
 /* .map{
 	position:relative;
 	padding-top:100px;
@@ -284,6 +293,7 @@ footer a.scrollup:focus {
 } */
 
 /* google map */
+
 /* #google-map{
     position:relative;
     height: 400px;
