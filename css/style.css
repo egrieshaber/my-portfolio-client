@@ -316,3 +316,8 @@ textarea#message{
 #sendmessage.show, #errormessage.show, .show {
 	display:block;
 }
+
+.icon {
+  font-size: 80px;
+  padding: 15px;
+}
